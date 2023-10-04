@@ -2,57 +2,106 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans+NKo+Unjoined:wght@500&family=Poppins&display=swap');
 
-/* header start  */
+  /* header start  */
 
-header {
-    width: 1440px;
-    background-color: blue;
-    /* background: #2A9D8F; */
-    margin: auto;
-}
+  header {
+      width: 1440px;
+      background-color: blue;
+      /* background: #2A9D8F; */
+      margin: auto;
+  }
 
-.logobox {
-    padding: 38px 369.66px 38px 130px;
-    display: inline-block;
-    vertical-align: middle;
-}
+  .logobox {
+      padding: 38px 369.66px 38px 130px;
+      display: inline-block;
+      vertical-align: middle;
+  }
 
-.logo {
-    padding: 10px 12.6px 10px 13px;
-    border-radius: 46px;
-    background: #FFF;
-}
+  .logo {
+      padding: 10px 12.6px 10px 13px;
+      border-radius: 46px;
+      background: #FFF;
+  }
 
-nav {
-    display: inline-block;
-    vertical-align: middle;
-}
+  nav {
+      display: inline-block;
+      vertical-align: middle;
+  }
 
-ul {
-    display: inline-block;
-    padding-right: 357px;
-}
+  ul {
+      display: inline-block;
+      padding-right: 357px;
+  }
 
-li { 
-    display: inline-block;
-    font-family: 'Nerko One', cursive;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
-letter-spacing: 0.1px;
-}
-.middle_li {margin-inline: 51px;}
-.needFFF {color: #FFF;}
-.header_button { padding: 8px 16px;
-    font-family: 'Nerko One', cursive;
-font-family: 'Noto Sans NKo Unjoined', sans-serif;
-font-family: 'Poppins', sans-serif;
-color: #2A9D8F;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px; /* 150% */
-letter-spacing: 0.1px;
-}
+  li {
+      display: inline-block;
+      font-family: 'Nerko One', cursive;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+      /* 150% */
+      letter-spacing: 0.1px;
+  }
+
+  .middle_li {
+      margin-inline: 51px;
+  }
+
+  .needFFF {
+      color: #FFF;
+  }
+
+  .header_button {
+      padding: 8px 16px;
+      font-family: 'Poppins', sans-serif;
+      color: #2A9D8F;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px;
+      /* 150% */
+      letter-spacing: 0.1px;
+  }
+
+  /* article start  */
+  
+  article {
+      width: 780px;
+      margin: 200px auto;
+  }
+
+  .article1_title {
+      font-family: 'Poppins', sans-serif;
+      color: #4D4D4D;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0.24px;
+  }
+
+  .article_p1 {
+      margin: 60px 0 52px 0;
+      font-family: 'Nerko One', cursive;
+      color: #656565;
+      text-align: justify;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.1px;
+  }
+
+  .article_p2 {
+      color: #656565;
+      text-align: justify;
+      font-family: 'Nerko One', cursive;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 170%;
+      letter-spacing: 0.2px;
+  }
