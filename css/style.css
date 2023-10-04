@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans+NKo+Unjoined:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans+NKo+Unjoined:wght@500&family=Poppins&display=swap');
+
+/* header start  */
+
+header {
+    width: 1440px;
+    background-color: blue;
+    /* background: #2A9D8F; */
+    margin: auto;
+}
+
+.logobox {
+    padding: 38px 369.66px 38px 130px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    padding: 10px 12.6px 10px 13px;
+    border-radius: 46px;
+    background: #FFF;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul {
+    display: inline-block;
+    padding-right: 357px;
+}
+
+li { 
+    display: inline-block;
+    font-family: 'Nerko One', cursive;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.1px;
+}
+.middle_li {margin-inline: 51px;}
+.needFFF {color: #FFF;}
+.header_button { padding: 8px 16px;
+    font-family: 'Nerko One', cursive;
+font-family: 'Noto Sans NKo Unjoined', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: #2A9D8F;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 150% */
+letter-spacing: 0.1px;
+}
