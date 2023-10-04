@@ -105,7 +105,7 @@
       line-height: 170%;
       letter-spacing: 0.2px;
   }
-
+/* section1 start  */
   .section1 {
       width: 1440px;
       background: #C2F3EE;
@@ -113,7 +113,7 @@
   }
 
   .section1_image {
-      padding: 80px 0;
+      padding: 80px 0 0 130px;
   }
 
   .section1_box {
