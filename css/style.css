@@ -2,8 +2,12 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans+NKo+Unjoined:wght@500&family=Poppins&display=swap');
 
+/* ფონტები რელატიურით წინაზე შემოვიტანე და ეხლა ესე გავაკეთე */
+
+
   /* header start  */
 
+  
   header {
       width: 1440px;
       background-color: blue;
@@ -28,12 +32,12 @@
       vertical-align: middle;
   }
 
-  ul {
+  .header_ul {
       display: inline-block;
       padding-right: 357px;
   }
 
-  li {
+  .nav_li {
       display: inline-block;
       font-family: 'Nerko One', cursive;
       font-size: 20px;
@@ -65,9 +69,13 @@
       letter-spacing: 0.1px;
   }
 
+
+
   /* article start  */
 
-.article1 {
+
+
+  .article1 {
       width: 780px;
       margin: 200px auto;
   }
@@ -106,7 +114,12 @@
       letter-spacing: 0.2px;
   }
 
+
+
   /* section1 start  */
+
+
+
   .section1 {
       width: 1440px;
       background: #C2F3EE;
@@ -157,33 +170,106 @@
       font-style: normal;
       font-weight: 400;
       line-height: 24px;
-      
+
   }
+
+
 
   /* <!-- section2 start  --> */
 
+
+
+
   .section2 {
-    width: 1180px; 
-    margin:200px auto;
-    /* background-color: blue; */
-   
+      width: 1180px;
+      margin: 200px auto;
+      /* background-color: blue; */
+
   }
-  .section2_title {padding: 0 300px 0 350px ;
-    color: #4D4D4D;
+
+  .section2_title {
+      padding: 0 300px 54px 350px;
+      color: #4D4D4D;
+      font-family: 'Poppins', sans-serif;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      letter-spacing: 0.24px;
+  }
+
+  .section2_article {
+      display: inline-block;
+      width: 580px;
+  }
+
+  .section2_p {
+      color: #535353;
+      font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 36px;
+      /* 150% */
+      letter-spacing: 0.12px;
+  }
+
+  .padding_20 {
+      padding-right: 16px; /*მგონი იგივეა ისედაც და ტყუილა დავუწერე :დდ*/
+  }
+
+  
+
+  /* footer start  */
+
+
+
+  footer {
+      width: 1440px;
+      padding: 90px 130px 148px 130px;
+      background: #2A9D8F;
+      margin: auto;
+  }
+
+  .footer_icon_box {display: inline-block;
+     /* padding-right: 534px;  აქ შევასწორე , მგონი მარჯინით უნდა დავაშორო  */
+    margin-right: 534px;}
+
+  .footer_icon { width: 98px; height: 98px;
+      padding: 22px 27.4px 21.6px 28px;
+      border-radius: 50px;
+      border: 3px solid #FFF;
+  }
+  .footer_box { 
+    /* background-color: brown; */
+    display: inline-block; 
+    vertical-align: top;
+  }
+  .footer_div1 {width: 64px;}
+  
+  .footer_div2 {
+        width: 173px;
+        /* padding-inline: 20px; */
+        margin-inline: 42px;
+    }
+
+ .footer_div3 {width: 148px;}
+
+ .footer_h3 { padding-bottom: 21px;
+    color: #FFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 130%; 
-    letter-spacing: 0.24px;}
-    .section2_article {display: inline-block;
-    width: 580px;}
-    .section2_p {
-        color: #535353;
-        font-family: 'Poppins', sans-serif;font-size: 24px;
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: 0.1px;
+ }
+ .footer_li {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 36px; /* 150% */
-letter-spacing: 0.12px;
-    }
-    .padding_20 {padding-right: 16px;} /*მგონი იგივეა ისედაც და ტყუილა დავუწერე :დდ*/
+line-height: 27px; /* 150% */
+ }
+ .need8 {padding: 8px 0;}
